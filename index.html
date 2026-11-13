@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>NOIR & BLADE | Luxury Men's Grooming Lounge — Chennai</title>
+    <meta name="description" content="Experience the pinnacle of male grooming in Chennai. Precision haircuts, bespoke beard sculpting, and royal hot towel shaves in an ultra-luxury 3D sanctuary." />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23050505'/><polygon points='50,8 92,28 92,72 50,92 8,72 8,28' fill='none' stroke='%23D4AF37' stroke-width='4'/><path d='M35,30 L65,70 M65,30 L35,70' stroke='%23D4AF37' stroke-width='4' stroke-linecap='round'/><circle cx='50' cy='50' r='6' fill='%23D4AF37'/></svg>" />
+
+    <!-- Google Fonts: Cinzel & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="luxury-dark">
+
+    <!-- 1. GLASSMORHPIC STICKY NAVBAR -->
+    <header id="main-header" class="header-nav">
+      <div class="nav-container">
+        <a href="index.html" class="brand-emblem" aria-label="Noir & Blade Home">
+          <div class="emblem-icon">
+            <svg viewBox="0 0 50 50" width="30" height="30" fill="none">
+              <polygon points="25,4 46,14 46,36 25,46 4,36 4,14" stroke="#D4AF37" stroke-width="1.8" />
+              <line x1="17" y1="16" x2="33" y2="34" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+              <line x1="33" y1="16" x2="17" y2="34" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="brand-titles">
+            <span class="brand-title">NOIR & BLADE</span>
+            <span class="brand-sub">LUXURY GROOMING &bull; CHENNAI</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links (Multi-Page Architecture) -->
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="transformations.html" class="nav-link">Transformations</a>
+          <a href="atelier.html" class="nav-link">Tech & Atelier</a>
+          <a href="barbers.html" class="nav-link">Master Barbers</a>
+        </nav>
+
+        <!-- Right Action Button -->
+        <div class="nav-actions">
+          <button class="btn-gold-sm open-booking-btn" data-service="Executive Skin Fade" data-barber="Vikram 'Viper' Rathore">
+            <span>Book Appointment</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+          
+          <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div class="drawer-header">
+        <div class="brand-title">NOIR & BLADE</div>
+        <button class="drawer-close" id="drawerCloseBtn">&times;</button>
+      </div>
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-link active">Home</a>
+        <a href="transformations.html" class="drawer-link">Transformations & Lookbook</a>
+        <a href="atelier.html" class="drawer-link">Precision Tech & Atelier</a>
+        <a href="barbers.html" class="drawer-link">Master Barbers & Heritage</a>
+      </nav>
+      <div class="drawer-footer">
+        <button class="btn-gold-full open-booking-btn">Reserve Your Chair</button>
+        <p class="drawer-contact">Khader Nawaz Khan Rd, Chennai &bull; +91 98840 92000</p>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="site-main">
+
+      <!-- ==========================================
+           1. HERO SECTION — 3D CANVAS 1 (chair)
+           Framing: Full Headrest & Halo Visible on Right
+           Left Column: Ultra-Minimal Editorial (75% Less Text)
+           ========================================== -->
+      <section id="hero" class="scroll-scene-container hero-scene-container" style="height: 320vh;" data-canvas-id="canvas-chair">
+        <div class="sticky-viewport hero-sticky-viewport">
+          <!-- 3D Canvas sits full-screen with chair offset to the right -->
+          <canvas id="canvas-chair" class="canvas-3d hero-canvas" aria-label="Interactive 3D luxury leather barber chair sequence"></canvas>
+          <div class="hero-left-vignette"></div>
+
+          <!-- Hero Left Column Container: Ultra-Clean & Minimal -->
+          <div class="hero-left-column">
+            
+            <!-- Hero Milestone 1: 0% - 33% (Minimal Opening) -->
+            <div class="hero-milestone hero-milestone-1 active" data-start="0.00" data-end="0.33">
+              <div class="luxury-badge">
+                <span class="badge-dot"></span>
+                <span>CHENNAI'S PREMIER MEN'S ATELIER</span>
+              </div>
+              <h1 class="hero-heading">
+                MORE THAN A HAIRCUT.<br />
+                <span class="gold-gradient-text">IT’S YOUR TIME.</span>
+              </h1>
+              <p class="hero-tagline">
+                Bespoke grooming & architectural fades in Chennai.
+              </p>
+              <div class="hero-cta-group">
+                <button class="btn-gold open-booking-btn" data-service="Executive Skin Fade">
+                  <span>Book Your Chair</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+                <a href="#rate-explorer" class="btn-ghost">
+                  <span>Explore Rate Card</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Hero Milestone 2: 34% - 66% (Minimal Second Phase) -->
+            <div class="hero-milestone hero-milestone-2" data-start="0.34" data-end="0.66">
+              <div class="luxury-badge">
+                <span class="badge-dot"></span>
+                <span>THE PHILOSOPHY OF SILENCE</span>
+              </div>
+              <h2 class="hero-heading">
+                AN UNHURRIED<br />
+                <span class="gold-gradient-text">RITUAL OF CRAFT.</span>
+              </h2>
+              <p class="hero-tagline">
+                One master bladesman. One dedicated suite. Never rushed.
+              </p>
+              <div class="hero-cta-group">
+                <a href="atelier.html" class="btn-gold">
+                  <span>Discover Precision Tech</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Hero Milestone 3: 67% - 100% (Minimal Third Phase) -->
+            <div class="hero-milestone hero-milestone-3" data-start="0.67" data-end="1.00">
+              <div class="luxury-badge">
+                <span class="badge-dot"></span>
+                <span>BESPOKE TRANSFORMATION</span>
+              </div>
+              <h2 class="hero-heading">
+                WALK OUT WITH<br />
+                <span class="gold-gradient-text">NEW STATURE.</span>
+              </h2>
+              <p class="hero-tagline">
+                Architectural proportion matched strictly to your skull and bone structure.
+              </p>
+              <div class="hero-cta-group">
+                <a href="transformations.html" class="btn-gold">
+                  <span>View Lookbook</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Bottom Floating Trust Bar (Non-Obtrusive) -->
+          <div class="hero-bottom-floating-bar">
+            <div class="hero-trust-tag">
+              <span class="trust-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="trust-text">Trusted by 12,000+ Chennai Gentlemen</span>
+            </div>
+            <div class="hero-scroll-indicator">
+              <span class="scroll-label">SCROLL TO EXPERIENCE</span>
+              <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==========================================
+           2. PHILOSOPHY & STATS BAR (Warm Linen Contrast Section)
+           ========================================== -->
+      <section id="philosophy" class="light-editorial-section">
+        <div class="container">
+          <div class="light-editorial-header text-center">
+            <span class="luxury-badge badge-dark">WHERE PRECISION MEETS TIMELESS CALM</span>
+            <h2 class="light-title">Grooming as Sacred Architecture</h2>
+            <p class="light-description">
+              In a world of rushed express salons, NOIR & BLADE was created as an antidote.
+              We believe a haircut is an architectural calibration of confidence.
+              Every angle, every line, and every hot towel is measured to provide profound stillness.
+            </p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card" data-target="12000" data-suffix="+">
+              <div class="stat-number">0</div>
+              <div class="stat-label">Bespoke Cuts Delivered</div>
+              <div class="stat-sub">Across 8 years in Chennai</div>
+            </div>
+
+            <div class="stat-card" data-target="4.9" data-suffix="★">
+              <div class="stat-number">4.9★</div>
+              <div class="stat-label">Google Rating</div>
+              <div class="stat-sub">From 1,420+ verified reviews</div>
+            </div>
+
+            <div class="stat-card" data-target="12" data-suffix="+">
+              <div class="stat-number">0</div>
+              <div class="stat-label">Master Stylists</div>
+              <div class="stat-sub">Trained in Tokyo & London</div>
+            </div>
+
+            <div class="stat-card" data-target="100" data-suffix="%">
+              <div class="stat-number">0%</div>
+              <div class="stat-label">Autoclave Sterilization</div>
+              <div class="stat-sub">Hospital-grade hygiene protocol</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           3. PANERAI-STYLE INTERACTIVE RATE CARD & SERVICE EXPLORER
+           Split-Stage Showcase (75% Active Category / 25% Next Preview Strip)
+           Smooth Slide-Open Warm Linen Detail Drawer on Click
+           ========================================== -->
+      <section id="rate-explorer" class="panerai-section">
+        <div class="panerai-container">
+          
+          <div class="section-header text-center" style="margin-bottom: 3.5rem;">
+            <span class="luxury-badge">INTERACTIVE SERVICE EXPLORER</span>
+            <h2 class="section-title">The Master Rate Card</h2>
+            <p class="section-subtitle">
+              Explore our curated grooming menu inspired by horological split-stage craftsmanship. Click any category to reveal the complete editorial price list.
+            </p>
+          </div>
+
+          <!-- Panerai Showcase Stage Wrapper -->
+          <div class="panerai-stage-wrapper" id="paneraiStageWrapper">
+            
+            <!-- Left 75% Stage: Main Showcase View -->
+            <div class="panerai-main-view" id="paneraiMainView">
+              <div class="panerai-main-overlay"></div>
+
+              <div class="panerai-main-content">
+                <div class="panerai-header-bar">
+                  <span class="panerai-step-pill">SANCTUARY TARIFF</span>
+                  <div class="panerai-counter">
+                    <span class="panerai-counter-active" id="paneraiCounterActive">01</span> / 04
+                  </div>
+                </div>
+
+                <h3 class="panerai-cat-title" id="paneraiCatTitle">01 / HAIR CUTS & ARCHITECTURE</h3>
+                <p class="panerai-cat-subtitle" id="paneraiCatSubtitle">
+                  Precision architectural fades, bespoke scissor sculpture, and skull-alignment analysis.
+                </p>
+
+                <div class="panerai-hero-price-badge">
+                  <span class="panerai-price-label">INVESTMENT</span>
+                  <span class="panerai-price-value" id="paneraiPriceValue">From ₹499</span>
+                </div>
+              </div>
+
+              <!-- Main View Action Controls -->
+              <div class="panerai-action-controls">
+                <div class="panerai-nav-arrows">
+                  <button class="panerai-arrow-btn" id="paneraiPrevBtn" aria-label="Previous Category">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+                  </button>
+                  <button class="panerai-arrow-btn" id="paneraiNextBtn" aria-label="Next Category">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+                  </button>
+                </div>
+
+                <button class="btn-panerai-open-drawer" id="btnPaneraiOpenDrawer">
+                  <span>View Full Menu</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Right 25% Preview Strip (Vertical Teaser of NEXT Category) -->
+            <div class="panerai-preview-strip" id="paneraiPreviewStrip" title="Click to preview next category">
+              <div class="panerai-strip-bg" id="paneraiStripBg"></div>
+              <div class="panerai-strip-overlay"></div>
+
+              <div class="panerai-strip-content">
+                <span class="panerai-strip-tag">NEXT CATEGORY</span>
+                <div class="panerai-strip-vertical-title" id="paneraiStripVerticalTitle">
+                  NEXT: 02. BEARD SCULPT & SHAVES
+                </div>
+                <div class="panerai-strip-footer">
+                  <span class="panerai-strip-price" id="paneraiStripPrice">From ₹399</span>
+                  <div class="panerai-strip-arrow">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stage 2: Slide-Open Warm Linen Detail Drawer -->
+            <div class="panerai-drawer" id="paneraiDrawer">
+              <div class="panerai-drawer-header">
+                <div class="panerai-drawer-title-group">
+                  <h3 id="paneraiDrawerTitle">01 / HAIR CUTS & ARCHITECTURE</h3>
+                  <p>All rituals include scalp analysis, aromatic hot towels & tonic.</p>
+                </div>
+                <button class="btn-panerai-close-drawer" id="btnPaneraiCloseDrawer">
+                  <span>&times; Return</span>
+                </button>
+              </div>
+
+              <!-- Quick Switch Category Tabs inside Drawer -->
+              <div class="panerai-drawer-tabs">
+                <button class="drawer-tab-btn active" data-cat-index="0">01. Hair Cuts</button>
+                <button class="drawer-tab-btn" data-cat-index="1">02. Beard & Shaves</button>
+                <button class="drawer-tab-btn" data-cat-index="2">03. Facial & Spa</button>
+                <button class="drawer-tab-btn" data-cat-index="3">04. VIP Suites</button>
+              </div>
+
+              <!-- Dotted Menu Rows Container -->
+              <div class="panerai-drawer-body" id="paneraiDrawerMenuContainer">
+                <!-- Dynamically populated via script.js -->
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==========================================
+           4. THE CRAFT — 3D CANVAS 2 (tools)
+           FEATURE #3A: Full-Screen Centered Canvas with
+           Minimal Floating Corner HUD Callouts (Zero Giant Boxes!)
+           ========================================== -->
+      <section id="craft" class="scroll-scene-container" style="height: 320vh;" data-canvas-id="canvas-tools">
+        <div class="sticky-viewport">
+          
+          <div class="craft-full-canvas-wrapper">
+            <!-- 3D Canvas centered full-screen showing Japanese shears & straight razor -->
+            <canvas id="canvas-tools" class="craft-full-canvas" aria-label="Interactive 3D Japanese cobalt steel shears and feather razor sequence"></canvas>
+            
+            <!-- Minimal Floating Corner HUD Callouts -->
+            <div class="craft-hud-overlay">
+              
+              <!-- Top-Left Corner HUD -->
+              <div class="hud-item craft-hud-tl">
+                <div class="hud-crosshair-tag">
+                  <span class="hud-crosshair-icon"></span>
+                  <span>01 / 03 &bull; THE TOOLS OF MASTERY</span>
+                </div>
+                <div class="hud-progress-track">
+                  <div class="hud-progress-fill"></div>
+                </div>
+              </div>
+
+              <!-- Top-Right Corner HUD -->
+              <div class="hud-item craft-hud-tr">
+                <span class="hud-coord-text">SEKI FORGE &bull; 13.0827&deg; N</span>
+                <span class="hud-fps-badge">60 FPS ULTRA-HD</span>
+              </div>
+
+              <!-- Bottom-Left Corner HUD (Kinetic Editorial Transitions with Scroll) -->
+              <div class="hud-item craft-hud-bl">
+                <div class="hud-kinetic-num">01</div>
+                <h3 class="hud-editorial-title">Japanese Cobalt Steel</h3>
+                <p class="hud-editorial-desc">
+                  Cobalt alloy shears hand-honed to a 17&deg; razor boundary in Seki, Japan.
+                </p>
+              </div>
+
+              <!-- Bottom-Right Corner HUD (Hairline Spec Capsule) -->
+              <div class="hud-item craft-hud-br">
+                <div class="hud-spec-capsule">
+                  [ SPEC: 6.0" COBALT ALLOY &bull; 0.05mm MICRO-SERRATION ]
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==========================================
+           5. LOUNGE ATMOSPHERE CTA — 3D CANVAS 3 (lounge)
+           Clean Closing Experience with Reserve Your Chair Button
+           ========================================== -->
+      <section id="lounge" class="split-scroll-container" style="height: 320vh;" data-canvas-id="canvas-lounge">
+        <div class="split-sticky-viewport">
+
+          <!-- Left Column (42% Width Minimal Editorial Panel) -->
+          <div class="split-left-panel">
+            <div class="split-step-tracker">
+              <span class="step-label">THE SANCTUARY</span>
+              <div class="step-dots">
+                <span class="step-num active" data-step="1">01</span>
+                <span class="step-sep">/</span>
+                <span class="step-num" data-step="2">02</span>
+              </div>
+            </div>
+
+            <!-- Step 1 Content: Atmosphere -->
+            <div class="split-editorial-content split-step-1 active" data-start="0.00" data-end="0.50">
+              <span class="section-kicker">ATMOSPHERE & AMENITIES</span>
+              <h2 class="split-title">An Oasis Designed<br /><span class="gold-gradient-text">For Deep Stillness.</span></h2>
+              <p class="split-spec-line">
+                Polished micro-cement &bull; Brushed brass &bull; Single malt & espresso bar.
+              </p>
+              <div class="spec-pills-row">
+                <span class="spec-pill">Valet Parking</span>
+                <span class="spec-pill">Heated Towels</span>
+              </div>
+            </div>
+
+            <!-- Step 2 Content: Grand Clean Final CTA -->
+            <div class="split-editorial-content split-step-2" data-start="0.51" data-end="1.00">
+              <div class="luxury-badge">NOIR & BLADE CHENNAI</div>
+              <h2 class="split-title">Your Next Great Look<br /><span class="gold-gradient-text">Starts Here.</span></h2>
+              <p class="split-spec-line" style="margin-bottom: 1.5rem;">
+                Appointments held strictly by reservation for unhurried craftsmanship.
+              </p>
+              <div class="split-cta-actions">
+                <button class="btn-gold open-booking-btn">
+                  <span>Reserve Your Chair</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+                <a href="https://wa.me/919884092000" target="_blank" rel="noopener" class="btn-ghost">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <span>WhatsApp Concierge</span>
+                </a>
+              </div>
+              <div class="grand-availability-note" style="margin-top: 1.2rem;">
+                <span class="live-dot"></span>
+                <span>Next Available Seats Open For Today & Tomorrow</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column (58% Width Unobstructed 3D Canvas) -->
+          <div class="split-right-canvas-wrap">
+            <canvas id="canvas-lounge" class="split-canvas-3d" aria-label="Interactive 3D golden arch grooming station and private lounge atmosphere sequence"></canvas>
+            <div class="split-canvas-vignette"></div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ==========================================
+         LUXURY FOOTER (Shared Across All Pages)
+         ========================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top-grid">
+
+          <!-- Col 1: Brand & Bio -->
+          <div class="footer-brand-col">
+            <div class="footer-emblem">
+              <svg viewBox="0 0 50 50" width="36" height="36" fill="none">
+                <polygon points="25,4 46,14 46,36 25,46 4,36 4,14" stroke="#D4AF37" stroke-width="2" />
+                <line x1="17" y1="16" x2="33" y2="34" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+                <line x1="33" y1="16" x2="17" y2="34" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="footer-brand-title">NOIR & BLADE</h3>
+            <p class="footer-brand-sub">LUXURY MEN’S GROOMING LOUNGE</p>
+            <p class="footer-bio">
+              Chennai’s architectural sanctuary for bespoke haircuts, traditional straight razor shaves, and quiet rejuvenation.
+            </p>
+            <div class="footer-socials">
+              <a href="#" class="social-circle" aria-label="Instagram">IG</a>
+              <a href="#" class="social-circle" aria-label="YouTube">YT</a>
+              <a href="#" class="social-circle" aria-label="Spotify">SP</a>
+            </div>
+          </div>
+
+          <!-- Col 2: Salon Address & Hours -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Sanctuary Address</h4>
+            <address class="footer-address">
+              4th Floor, Platinum Courtyard,<br />
+              Khader Nawaz Khan Road, Nungambakkam,<br />
+              Chennai, Tamil Nadu 600006<br />
+              <span class="address-landmark">Adjacent to Taj Coromandel</span>
+            </address>
+            <div class="footer-hours">
+              <div class="hour-line"><strong>Tue – Sun:</strong> 09:00 AM – 09:00 PM</div>
+              <div class="hour-line"><strong>Monday:</strong> Reserved for VIP Buyouts</div>
+            </div>
+          </div>
+
+          <!-- Col 3: Concierge & Direct Inquiries -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Direct Concierge</h4>
+            <p class="footer-contact-item">
+              <span class="c-label">Appointments:</span>
+              <a href="tel:+919884092000" class="c-link">+91 98840 92000</a>
+            </p>
+            <p class="footer-contact-item">
+              <span class="c-label">WhatsApp:</span>
+              <a href="https://wa.me/919884092000" target="_blank" rel="noopener" class="c-link">+91 98840 92000</a>
+            </p>
+            <p class="footer-contact-item">
+              <span class="c-label">Private Inquiries:</span>
+              <a href="mailto:concierge@noirandblade.in" class="c-link">concierge@noirandblade.in</a>
+            </p>
+            <div class="valet-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+              <span>Complimentary Valet Parking Available</span>
+            </div>
+          </div>
+
+          <!-- Col 4: Quick Navigation -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Navigation</h4>
+            <ul class="footer-nav-list">
+              <li><a href="index.html">Home Experience</a></li>
+              <li><a href="transformations.html">Transformations & Lookbook</a></li>
+              <li><a href="atelier.html">Precision Tech & Atelier</a></li>
+              <li><a href="barbers.html">Master Barbers & Heritage</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom-row">
+          <p class="copyright">&copy; 2026 NOIR & BLADE Men’s Grooming Lounge. All Rights Reserved.</p>
+          <div class="footer-meta-links">
+            <a href="#">Privacy Protocol</a>
+            <span class="divider">&bull;</span>
+            <a href="#">Sanitization Standard</a>
+            <span class="divider">&bull;</span>
+            <a href="#">Chennai Atelier</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==========================================
+         INTERACTIVE LUXURY BOOKING MODAL (Shared)
+         ========================================== -->
+    <div id="bookingModal" class="booking-modal-overlay" aria-hidden="true" role="dialog">
+      <div class="booking-modal-box">
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close booking modal">&times;</button>
+        
+        <!-- Step 1: Booking Form -->
+        <div id="modalFormStep" class="modal-step-content active">
+          <div class="modal-header">
+            <span class="luxury-badge">CONCIERGE DESK</span>
+            <h3 class="modal-title">Reserve Your Sanctuary Chair</h3>
+            <p class="modal-subtitle">Select your bespoke ritual, preferred master bladesman, and appointment slot.</p>
+          </div>
+
+          <form id="appointmentForm" class="appointment-form" novalidate>
+            
+            <!-- Service Selection -->
+            <div class="form-group">
+              <label for="bookService" class="form-label">Grooming Ritual / Service</label>
+              <select id="bookService" class="form-select" required>
+                <optgroup label="Hair Cuts & Architecture">
+                  <option value="Executive Skin Fade" data-price="599" data-time="45 mins" selected>Executive Skin Fade (₹599 &bull; 45 mins)</option>
+                  <option value="Classic Scissor Cut" data-price="499" data-time="45 mins">Classic Scissor Cut (₹499 &bull; 45 mins)</option>
+                  <option value="Junior Heir Cut (Under 12)" data-price="399" data-time="30 mins">Junior Heir Cut (₹399 &bull; 30 mins)</option>
+                  <option value="Beard Fade & Re-Shaping" data-price="349" data-time="25 mins">Beard Fade & Re-Shaping (₹349 &bull; 25 mins)</option>
+                </optgroup>
+                <optgroup label="Beard Sculpting & Shaves">
+                  <option value="Bespoke Beard Sculpting" data-price="399" data-time="30 mins">Bespoke Beard Sculpting (₹399 &bull; 30 mins)</option>
+                  <option value="Royal Hot Towel Shave" data-price="499" data-time="40 mins">Royal Hot Towel Shave (₹499 &bull; 40 mins)</option>
+                  <option value="Mustache Contour & Conditioning" data-price="249" data-time="20 mins">Mustache Contour (₹249 &bull; 20 mins)</option>
+                </optgroup>
+                <optgroup label="Skin & Spa Therapies">
+                  <option value="Hydra-Glow Men's Facial" data-price="899" data-time="50 mins">Hydra-Glow Facial (₹899 &bull; 50 mins)</option>
+                  <option value="Charcoal Detox Facial" data-price="699" data-time="45 mins">Charcoal Detox Facial (₹699 &bull; 45 mins)</option>
+                  <option value="Aromatherapy Shiatsu Scalp Spa" data-price="999" data-time="45 mins">Shiatsu Scalp Spa (₹999 &bull; 45 mins)</option>
+                </optgroup>
+                <optgroup label="VIP Packages">
+                  <option value="The Noir Signature Ritual" data-price="1499" data-time="90 mins">The Noir Signature Ritual (₹1,499 &bull; 90 mins)</option>
+                  <option value="Executive Grooming Passport" data-price="2199" data-time="120 mins">Executive Grooming Passport (₹2,199 &bull; 120 mins)</option>
+                  <option value="Groom's HD Radiance Makeup" data-price="2999" data-time="90 mins">Groom's HD Radiance Makeup (₹2,999 &bull; 90 mins)</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <!-- Stylist Selection -->
+            <div class="form-group">
+              <label for="bookBarber" class="form-label">Master Bladesman</label>
+              <select id="bookBarber" class="form-select">
+                <option value="First Available Master Barber">First Available Master Bladesman</option>
+                <option value="Vikram 'Viper' Rathore (Creative Director)">Vikram "Viper" Rathore &mdash; Creative Director</option>
+                <option value="Marcus 'Slick' Vance (Senior Fade Artisan)">Marcus "Slick" Vance &mdash; Senior Fade Artisan</option>
+                <option value="Arjun 'Razor' Dev (Hot Towel & Shave Specialist)">Arjun "Razor" Dev &mdash; Shave Specialist</option>
+              </select>
+            </div>
+
+            <!-- Date and Time Row -->
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="bookDate" class="form-label">Preferred Date</label>
+                <input type="date" id="bookDate" class="form-input" required />
+              </div>
+              <div class="form-group">
+                <label for="bookTime" class="form-label">Preferred Time Slot</label>
+                <select id="bookTime" class="form-select" required>
+                  <option value="10:00 AM">10:00 AM &bull; Morning Sanctuary</option>
+                  <option value="11:30 AM">11:30 AM &bull; Morning Sanctuary</option>
+                  <option value="01:00 PM">01:00 PM &bull; Afternoon Session</option>
+                  <option value="03:00 PM">03:00 PM &bull; Afternoon Session</option>
+                  <option value="04:30 PM">04:30 PM &bull; Evening Session</option>
+                  <option value="06:00 PM" selected>06:00 PM &bull; Prime Lounge Slot</option>
+                  <option value="07:30 PM">07:30 PM &bull; Dusk Sanctuary</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Guest Details Row -->
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="bookName" class="form-label">Gentleman's Full Name</label>
+                <input type="text" id="bookName" class="form-input" placeholder="e.g. Siddharth Menon" required />
+              </div>
+              <div class="form-group">
+                <label for="bookPhone" class="form-label">Mobile Number</label>
+                <input type="tel" id="bookPhone" class="form-input" placeholder="+91 98840 00000" required />
+              </div>
+            </div>
+
+            <!-- Live Summary Box -->
+            <div class="modal-summary-box">
+              <div class="summary-line">
+                <span class="summary-label">Selected Ritual:</span>
+                <span class="summary-value" id="summaryServiceText">Executive Skin Fade</span>
+              </div>
+              <div class="summary-line">
+                <span class="summary-label">Duration & Master:</span>
+                <span class="summary-value" id="summaryMetaText">Estimated: 45 mins &bull; First Available</span>
+              </div>
+              <div class="summary-divider"></div>
+              <div class="summary-line total-line">
+                <span class="summary-label">Session Tariff:</span>
+                <span class="summary-price" id="summaryPriceText">&#8377;599</span>
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="modal-submit-wrap">
+              <button type="submit" class="btn-gold-full" id="confirmBookingBtn">
+                <span>Confirm Sanctuary Reservation</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+              <p class="modal-terms-note">
+                Zero cancellation fee up to 2 hours prior. Complimentary valet parking upon arrival.
+              </p>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- Step 2: Confirmation Boarding Pass Ticket -->
+        <div id="modalSuccessStep" class="modal-step-content">
+          <div class="sanctuary-ticket" id="sanctuaryTicket">
+            <div class="ticket-header">
+              <div class="ticket-emblem">
+                <svg viewBox="0 0 50 50" width="28" height="28" fill="none">
+                  <polygon points="25,4 46,14 46,36 25,46 4,36 4,14" stroke="#D4AF37" stroke-width="2" />
+                  <line x1="17" y1="16" x2="33" y2="34" stroke="#D4AF37" stroke-width="2"/>
+                  <line x1="33" y1="16" x2="17" y2="34" stroke="#D4AF37" stroke-width="2"/>
+                </svg>
+              </div>
+              <div class="ticket-brand-group">
+                <span class="ticket-brand">NOIR & BLADE</span>
+                <span class="ticket-sub">SANCTUARY APPOINTMENT PASS</span>
+              </div>
+              <div class="ticket-status-pill">CONFIRMED</div>
+            </div>
+
+            <div class="ticket-body">
+              <div class="ticket-data-grid">
+                <div class="ticket-item">
+                  <span class="t-label">RESERVATION PASS ID</span>
+                  <span class="t-value highlight-gold" id="ticketPassId">NB-2026-8941</span>
+                </div>
+                <div class="ticket-item">
+                  <span class="t-label">GENTLEMAN GUEST</span>
+                  <span class="t-value" id="ticketGuest">Mr. S. Menon</span>
+                </div>
+                <div class="ticket-item">
+                  <span class="t-label">MASTER BLADESMAN</span>
+                  <span class="t-value" id="ticketBarber">Vikram "Viper" Rathore</span>
+                </div>
+                <div class="ticket-item">
+                  <span class="t-label">SELECTED RITUAL</span>
+                  <span class="t-value" id="ticketRitual">Executive Skin Fade</span>
+                </div>
+                <div class="ticket-item">
+                  <span class="t-label">DATE & TIME</span>
+                  <span class="t-value" id="ticketDate">Tomorrow &bull; 06:00 PM</span>
+                </div>
+                <div class="ticket-item">
+                  <span class="t-label">TARIFF DUE AT LOUNGE</span>
+                  <span class="t-value highlight-gold" id="ticketAmount">&#8377;599</span>
+                </div>
+              </div>
+
+              <div class="ticket-barcode-wrap">
+                <div class="mock-barcode"></div>
+                <span class="barcode-sub">SCAN UPON VALET ARRIVAL &bull; WALLACE GARDEN SANCTUARY</span>
+              </div>
+            </div>
+
+            <div class="ticket-footer">
+              <button class="btn-ticket-action" onclick="window.print()">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+                <span>Save Boarding Pass</span>
+              </button>
+              <button class="btn-ticket-secondary" id="ticketBookAnotherBtn">
+                <span>Book Another Chair</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- JavaScript Module -->
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

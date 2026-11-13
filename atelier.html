@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>Precision Tech & Facial Atelier | NOIR & BLADE Chennai</title>
+    <meta name="description" content="Explore zero-gap titanium clipper metrology and restorative men's facial and grooming rituals at NOIR & BLADE Chennai." />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23050505'/><polygon points='50,8 92,28 92,72 50,92 8,72 8,28' fill='none' stroke='%23D4AF37' stroke-width='4'/><path d='M35,30 L65,70 M65,30 L35,70' stroke='%23D4AF37' stroke-width='4' stroke-linecap='round'/><circle cx='50' cy='50' r='6' fill='%23D4AF37'/></svg>" />
+
+    <!-- Google Fonts: Cinzel & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="luxury-dark">
+
+    <!-- 1. GLASSMORHPIC STICKY NAVBAR -->
+    <header id="main-header" class="header-nav">
+      <div class="nav-container">
+        <a href="index.html" class="brand-emblem" aria-label="Noir & Blade Home">
+          <div class="emblem-icon">
+            <svg viewBox="0 0 50 50" width="30" height="30" fill="none">
+              <polygon points="25,4 46,14 46,36 25,46 4,36 4,14" stroke="#D4AF37" stroke-width="1.8" />
+              <line x1="17" y1="16" x2="33" y2="34" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+              <line x1="33" y1="16" x2="17" y2="34" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="brand-titles">
+            <span class="brand-title">NOIR & BLADE</span>
+            <span class="brand-sub">LUXURY GROOMING &bull; CHENNAI</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="transformations.html" class="nav-link">Transformations</a>
+          <a href="atelier.html" class="nav-link active">Tech & Atelier</a>
+          <a href="barbers.html" class="nav-link">Master Barbers</a>
+        </nav>
+
+        <!-- Right Action Button -->
+        <div class="nav-actions">
+          <button class="btn-gold-sm open-booking-btn" data-service="Executive Skin Fade" data-barber="Vikram 'Viper' Rathore">
+            <span>Book Appointment</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+          
+          <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div class="drawer-header">
+        <div class="brand-title">NOIR & BLADE</div>
+        <button class="drawer-close" id="drawerCloseBtn">&times;</button>
+      </div>
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-link">Home</a>
+        <a href="transformations.html" class="drawer-link">Transformations & Lookbook</a>
+        <a href="atelier.html" class="drawer-link active">Precision Tech & Atelier</a>
+        <a href="barbers.html" class="drawer-link">Master Barbers & Heritage</a>
+      </nav>
+      <div class="drawer-footer">
+        <button class="btn-gold-full open-booking-btn">Reserve Your Chair</button>
+        <p class="drawer-contact">Khader Nawaz Khan Rd, Chennai &bull; +91 98840 92000</p>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="site-main">
+
+      <!-- FULL-BLEED WIDE CINEMATIC HERO BANNER -->
+      <section class="page-hero-banner page-hero hero-atelier atelier-hero">
+        <div class="page-hero-content">
+          <div class="hero-badge">ENGINEERING & WELLNESS METROLOGY</div>
+          <h1 class="hero-title">PRECISION TECH & GROOMING ATELIER</h1>
+          <p class="hero-subtitle">
+            Where 0.1mm titanium blade geometry intersects restorative botanical facial therapies and steaming linen rituals.
+          </p>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           SECTION 1: PRECISION TECH — 3D CANVAS (clipper)
+           FEATURE #3B: Horizontal Split with Interactive Spec Dial
+           ========================================== -->
+      <section id="tech" class="scroll-scene-container" style="height: 320vh;" data-canvas-id="canvas-clipper">
+        <div class="sticky-viewport">
+          
+          <div class="tech-split-container">
+            
+            <!-- Left 55%: 3D Clipper Macro Canvas -->
+            <div class="tech-canvas-column">
+              <canvas id="canvas-clipper" class="split-canvas-3d" aria-label="Interactive 3D zero-gap titanium clipper blade macro sequence"></canvas>
+              <div class="split-canvas-vignette"></div>
+            </div>
+
+            <!-- Right 45%: Interactive Technical Spec Console -->
+            <div class="tech-dial-column">
+              
+              <div class="tech-dial-title-group">
+                <span class="tech-tag-badge">ZERO-GAP METROLOGY</span>
+                <h2 class="tech-main-heading">Titanium Blade<br /><span class="gold-gradient-text">Architecture.</span></h2>
+              </div>
+
+              <!-- Interactive Spec Dial Nodes -->
+              <div class="tech-dial-tabs">
+                <div class="tech-dial-node active" data-index="0">
+                  <div class="tech-node-info">
+                    <span class="tech-node-val">01. 0.10mm Zero-Gap Head</span>
+                    <span class="tech-node-label">Diamond-Like Carbon (DLC) coated micro-teeth</span>
+                  </div>
+                  <div class="tech-node-indicator"></div>
+                </div>
+
+                <div class="tech-dial-node" data-index="1">
+                  <div class="tech-node-info">
+                    <span class="tech-node-val">02. 7,200 RPM MagLev Motor</span>
+                    <span class="tech-node-label">Brushless magnetic rotary core with constant torque</span>
+                  </div>
+                  <div class="tech-node-indicator"></div>
+                </div>
+
+                <div class="tech-dial-node" data-index="2">
+                  <div class="tech-node-info">
+                    <span class="tech-node-val">03. Titanium DLC Heat Sink</span>
+                    <span class="tech-node-label">Sub-30°C running temp for client skin comfort</span>
+                  </div>
+                  <div class="tech-node-indicator"></div>
+                </div>
+              </div>
+
+              <!-- Live Telemetry Readout Grid -->
+              <div class="tech-telemetry-grid">
+                <div class="telemetry-item">
+                  <span class="telemetry-label">BLADE TEMPERATURE</span>
+                  <span class="telemetry-val" id="telemetryTemp">28°C CHILLED</span>
+                </div>
+                <div class="telemetry-item">
+                  <span class="telemetry-label">MOTOR VELOCITY</span>
+                  <span class="telemetry-val" id="telemetryRpm">7,200 RPM</span>
+                </div>
+                <div class="telemetry-item">
+                  <span class="telemetry-label">CUTTING CLEARANCE</span>
+                  <span class="telemetry-val" id="telemetryGap">0.10 mm</span>
+                </div>
+                <div class="telemetry-item">
+                  <span class="telemetry-label">SOUND PRESSURE</span>
+                  <span class="telemetry-val" id="telemetryDb">58 dB WHISPER</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==========================================
+           SECTION 2: FACIAL & GROOMING ATELIER — 3D CANVAS (atelier)
+           FEATURE #3C: Ambient 3D Canvas with Floating Ritual Glass Cards
+           ========================================== -->
+      <section id="grooming-atelier" class="scroll-scene-container" style="height: 320vh;" data-canvas-id="canvas-atelier">
+        <div class="sticky-viewport">
+          
+          <div class="atelier-experience-wrapper">
+            <!-- Full-Screen Ambient 3D Canvas: Cologne bottle, brass shaving bowl, steaming towels -->
+            <canvas id="canvas-atelier" class="atelier-bg-canvas" aria-label="Interactive 3D grooming essentials, cologne, and hot towel ritual sequence"></canvas>
+            
+            <!-- Right Edge: Floating Translucent Glass-Gold Ritual Cards -->
+            <div class="atelier-cards-overlay">
+              
+              <!-- Card 1: Charcoal Detox Facial -->
+              <div class="atelier-ritual-glass-card active" data-step="1">
+                <div class="atelier-card-top">
+                  <h3 class="atelier-ritual-name">Charcoal Detox Facial</h3>
+                  <span class="atelier-ritual-price">&#8377;699</span>
+                </div>
+                <p class="atelier-card-details">
+                  Activated bamboo charcoal mask, warm eucalyptus linen steam, and gentle ultrasonic pore vacuuming to extract urban pollutants.
+                </p>
+                <div class="atelier-card-footer">
+                  <span class="atelier-duration-pill">45 MINS &bull; DETOXIFYING</span>
+                  <button class="btn-atelier-book open-booking-btn" data-service="Charcoal Detox Facial" data-price="699">
+                    Add to Booking
+                  </button>
+                </div>
+              </div>
+
+              <!-- Card 2: Groom's HD Radiance Makeup -->
+              <div class="atelier-ritual-glass-card" data-step="2">
+                <div class="atelier-card-top">
+                  <h3 class="atelier-ritual-name">Groom's HD Makeup</h3>
+                  <span class="atelier-ritual-price">&#8377;2,999</span>
+                </div>
+                <p class="atelier-card-details">
+                  Undetectable matte tone balancing formulated specifically for high-definition wedding photography and 4K lenses without visible residue.
+                </p>
+                <div class="atelier-card-footer">
+                  <span class="atelier-duration-pill">90 MINS &bull; WEDDING SUITE</span>
+                  <button class="btn-atelier-book open-booking-btn" data-service="Groom's HD Radiance Makeup" data-price="2999">
+                    Add to Booking
+                  </button>
+                </div>
+              </div>
+
+              <!-- Card 3: Aromatherapy Shiatsu Scalp Spa -->
+              <div class="atelier-ritual-glass-card" data-step="3">
+                <div class="atelier-card-top">
+                  <h3 class="atelier-ritual-name">Shiatsu Scalp Spa</h3>
+                  <span class="atelier-ritual-price">&#8377;999</span>
+                </div>
+                <p class="atelier-card-details">
+                  Warm Moroccan cedarwood and argan oil infusion with deep acupressure points across temples, scalp crown, and cervical neck spine.
+                </p>
+                <div class="atelier-card-footer">
+                  <span class="atelier-duration-pill">45 MINS &bull; RESTORATIVE</span>
+                  <button class="btn-atelier-book open-booking-btn" data-service="Aromatherapy Shiatsu Scalp Spa" data-price="999">
+                    Add to Booking
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SANITIZATION STANDARDS SECTION -->
+      <section class="matrix-section">
+        <div class="container">
+          <div class="section-header text-center" style="margin-bottom: 3rem;">
+            <span class="luxury-badge">CLINICAL EXCELLENCE</span>
+            <h2 class="section-title">The Clean Room Standard</h2>
+            <p class="section-subtitle">
+              Hygiene is not an afterthought at NOIR & BLADE—it is an uncompromising architectural parameter.
+            </p>
+          </div>
+
+          <div class="matrix-grid">
+            <div class="matrix-card">
+              <span class="matrix-shape-tag">HOSPITAL-GRADE</span>
+              <h3 class="matrix-title">Autoclave Sterilization</h3>
+              <p class="matrix-desc">
+                All metal shears, combs, and attachments undergo high-pressure 134°C steam sterilization in our visible glass decontamination cabinet.
+              </p>
+            </div>
+
+            <div class="matrix-card">
+              <span class="matrix-shape-tag">SINGLE-USE ONLY</span>
+              <h3 class="matrix-title">Japanese Feather Blades</h3>
+              <p class="matrix-desc">
+                Straight razor blades are unwrapped from sealed sterile foil in front of the gentleman and responsibly recycled after one single ritual.
+              </p>
+            </div>
+
+            <div class="matrix-card">
+              <span class="matrix-shape-tag">ULTRAVIOLET</span>
+              <h3 class="matrix-title">UV-C Tool Chambers</h3>
+              <p class="matrix-desc">
+                Clippers and trimmers rest inside enclosed 254nm ultraviolet irradiation docks between clients, neutralizing 99.9% of microbial pathogens.
+              </p>
+            </div>
+
+            <div class="matrix-card">
+              <span class="matrix-shape-tag">INDIVIDUALLY WRAPPED</span>
+              <h3 class="matrix-title">Organic Linen Towels</h3>
+              <p class="matrix-desc">
+                Every hot and cold towel is washed offsite in hypoallergenic medical laundries, infused with organic essential oils, and single-use only.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- LUXURY FOOTER (Shared) -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top-grid">
+
+          <div class="footer-brand-col">
+            <div class="footer-emblem">
+              <svg viewBox="0 0 50 50" width="36" height="36" fill="none">
+                <polygon points="25,4 46,14 46,36 25,46 4,36 4,14" stroke="#D4AF37" stroke-width="2" />
+                <line x1="17" y1="16" x2="33" y2="34" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+                <line x1="33" y1="16" x2="17" y2="34" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="footer-brand-title">NOIR & BLADE</h3>
+            <p class="footer-brand-sub">LUXURY MEN’S GROOMING LOUNGE</p>
+            <p class="footer-bio">
+              Chennai’s architectural sanctuary for bespoke haircuts, traditional straight razor shaves, and quiet rejuvenation.
+            </p>
+            <div class="footer-socials">
+              <a href="#" class="social-circle" aria-label="Instagram">IG</a>
+              <a href="#" class="social-circle" aria-label="YouTube">YT</a>
+              <a href="#" class="social-circle" aria-label="Spotify">SP</a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Sanctuary Address</h4>
+            <address class="footer-address">
+              4th Floor, Platinum Courtyard,<br />
+              Khader Nawaz Khan Road, Nungambakkam,<br />
+              Chennai, Tamil Nadu 600006<br />
+              <span class="address-landmark">Adjacent to Taj Coromandel</span>
+            </address>
+            <div class="footer-hours">
+              <div class="hour-line"><strong>Tue – Sun:</strong> 09:00 AM – 09:00 PM</div>
+              <div class="hour-line"><strong>Monday:</strong> Reserved for VIP Buyouts</div>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Direct Concierge</h4>
+            <p class="footer-contact-item">
+              <span class="c-label">Appointments:</span>
+              <a href="tel:+919884092000" class="c-link">+91 98840 92000</a>
+            </p>
+            <p class="footer-contact-item">
+              <span class="c-label">WhatsApp:</span>
+              <a href="https://wa.me/919884092000" target="_blank" rel="noopener" class="c-link">+91 98840 92000</a>
+            </p>
+            <p class="footer-contact-item">
+              <span class="c-label">Private Inquiries:</span>
+              <a href="mailto:concierge@noirandblade.in" class="c-link">concierge@noirandblade.in</a>
+            </p>
+            <div class="valet-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+              <span>Complimentary Valet Parking Available</span>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Navigation</h4>
+            <ul class="footer-nav-list">
+              <li><a href="index.html">Home Experience</a></li>
+              <li><a href="transformations.html">Transformations & Lookbook</a></li>
+              <li><a href="atelier.html">Precision Tech & Atelier</a></li>
+              <li><a href="barbers.html">Master Barbers & Heritage</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom-row">
+          <p class="copyright">&copy; 2026 NOIR & BLADE Men’s Grooming Lounge. All Rights Reserved.</p>
+          <div class="footer-meta-links">
+            <a href="#">Privacy Protocol</a>
+            <span class="divider">&bull;</span>
+            <a href="#">Sanitization Standard</a>
+            <span class="divider">&bull;</span>
+            <a href="#">Chennai Atelier</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SHARED BOOKING MODAL -->
+    <div id="bookingModal" class="booking-modal-overlay" aria-hidden="true" role="dialog">
+      <div class="booking-modal-box">
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close booking modal">&times;</button>
+        
+        <div id="modalFormStep" class="modal-step-content active">
+          <div class="modal-header">
+            <span class="luxury-badge">CONCIERGE DESK</span>
+            <h3 class="modal-title">Reserve Your Sanctuary Chair</h3>
+            <p class="modal-subtitle">Select your bespoke ritual, preferred master bladesman, and appointment slot.</p>
+          </div>
+
+          <form id="appointmentForm" class="appointment-form" novalidate>
+            <div class="form-group">
+              <label for="bookService" class="form-label">Grooming Ritual / Service</label>
+              <select id="bookService" class="form-select" required>
+                <optgroup label="Skin & Spa Therapies">
+                  <option value="Charcoal Detox Facial" data-price="699" data-time="45 mins" selected>Charcoal Detox Facial (₹699 &bull; 45 mins)</option>
+                  <option value="Aromatherapy Shiatsu Scalp Spa" data-price="999" data-time="45 mins">Shiatsu Scalp Spa (₹999 &bull; 45 mins)</option>
+                  <option value="Hydra-Glow Men's Facial" data-price="899" data-time="50 mins">Hydra-Glow Facial (₹899 &bull; 50 mins)</option>
+                  <option value="Groom's HD Radiance Makeup" data-price="2999" data-time="90 mins">Groom's HD Radiance Makeup (₹2,999 &bull; 90 mins)</option>
+                </optgroup>
+                <optgroup label="Hair Cuts & Architecture">
+                  <option value="Executive Skin Fade" data-price="599" data-time="45 mins">Executive Skin Fade (₹599 &bull; 45 mins)</option>
+                  <option value="Classic Scissor Cut" data-price="499" data-time="45 mins">Classic Scissor Cut (₹499 &bull; 45 mins)</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="bookBarber" class="form-label">Master Bladesman</label>
+              <select id="bookBarber" class="form-select">
+                <option value="First Available Master Barber">First Available Master Bladesman</option>
+                <option value="Vikram 'Viper' Rathore (Creative Director)">Vikram "Viper" Rathore &mdash; Creative Director</option>
+                <option value="Marcus 'Slick' Vance (Senior Fade Artisan)">Marcus "Slick" Vance &mdash; Senior Fade Artisan</option>
+                <option value="Arjun 'Razor' Dev (Hot Towel & Shave Specialist)">Arjun "Razor" Dev &mdash; Shave Specialist</option>
+              </select>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="bookDate" class="form-label">Preferred Date</label>
+                <input type="date" id="bookDate" class="form-input" required />
+              </div>
+              <div class="form-group">
+                <label for="bookTime" class="form-label">Preferred Time Slot</label>
+                <select id="bookTime" class="form-select" required>
+                  <option value="10:00 AM">10:00 AM &bull; Morning Sanctuary</option>
+                  <option value="11:30 AM">11:30 AM &bull; Morning Sanctuary</option>
+                  <option value="01:00 PM">01:00 PM &bull; Afternoon Session</option>
+                  <option value="03:00 PM">03:00 PM &bull; Afternoon Session</option>
+                  <option value="04:30 PM">04:30 PM &bull; Evening Session</option>
+                  <option value="06:00 PM" selected>06:00 PM &bull; Prime Lounge Slot</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="bookName" class="form-label">Gentleman's Full Name</label>
+                <input type="text" id="bookName" class="form-input" placeholder="e.g. Siddharth Menon" required />
+              </div>
+              <div class="form-group">
+                <label for="bookPhone" class="form-label">Mobile Number</label>
+                <input type="tel" id="bookPhone" class="form-input" placeholder="+91 98840 00000" required />
+              </div>
+            </div>
+
+            <div class="modal-summary-box">
+              <div class="summary-line">
+                <span class="summary-label">Selected Ritual:</span>
+                <span class="summary-value" id="summaryServiceText">Charcoal Detox Facial</span>
+              </div>
+              <div class="summary-line">
+                <span class="summary-label">Duration & Master:</span>
+                <span class="summary-value" id="summaryMetaText">Estimated: 45 mins &bull; First Available</span>
+              </div>
+              <div class="summary-divider"></div>
+              <div class="summary-line total-line">
+                <span class="summary-label">Session Tariff:</span>
+                <span class="summary-price" id="summaryPriceText">&#8377;699</span>
+              </div>
+            </div>
+
+            <div class="modal-submit-wrap">
+              <button type="submit" class="btn-gold-full" id="confirmBookingBtn">
+                <span>Confirm Sanctuary Reservation</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div id="modalSuccessStep" class="modal-step-content">
+          <div class="sanctuary-ticket">
+            <div class="ticket-header">
+              <div class="ticket-brand-group">
+                <span class="ticket-brand">NOIR & BLADE</span>
+                <span class="ticket-sub">SANCTUARY PASS</span>
+              </div>
+              <div class="ticket-status-pill">CONFIRMED</div>
+            </div>
+            <div class="ticket-body">
+              <div class="ticket-data-grid">
+                <div class="ticket-item">
+                  <span class="t-label">PASS ID</span>
+                  <span class="t-value highlight-gold" id="ticketPassId">NB-2026-8941</span>
+                </div>
+                <div class="ticket-item">
+                  <span class="t-label">GENTLEMAN</span>
+                  <span class="t-value" id="ticketGuest">Mr. S. Menon</span>
+                </div>
+                <div class="ticket-item">
+                  <span class="t-label">RITUAL</span>
+                  <span class="t-value" id="ticketRitual">Charcoal Detox Facial</span>
+                </div>
+                <div class="ticket-item">
+                  <span class="t-label">TARIFF DUE</span>
+                  <span class="t-value highlight-gold" id="ticketAmount">&#8377;699</span>
+                </div>
+              </div>
+            </div>
+            <div class="ticket-footer">
+              <button class="btn-ticket-action" onclick="window.print()">Save Pass</button>
+              <button class="btn-ticket-secondary" id="ticketBookAnotherBtn">Book Another</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- JavaScript Module -->
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
